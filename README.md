@@ -1,18 +1,23 @@
 # Pytorch implementation of Google Quantization
 
-### Experimental result on Res-50:
-
-| Weight Bit | Act Bit | top-1 | 
-|---|---|---|
-| 8 | 8 | 75.46% |
+### Experimental results:
+To be added.
 
 
-### The quantization scheme follows this paper:
+### The pruning schemes follow these papers:
 ```
-@article{jacob2017quantization,
-  title={Quantization and training of neural networks for efficient integer-arithmetic-only inference},
-  author={Jacob, Benoit and Kligys, Skirmantas and Chen, Bo and Zhu, Menglong and Tang, Matthew and Howard, Andrew and Adam, Hartwig and Kalenichenko, Dmitry},
-  journal={arXiv preprint arXiv:1712.05877},
-  year={2017}
+@inproceedings{han2015learning,
+  title={Learning both weights and connections for efficient neural network},
+  author={Han, Song and Pool, Jeff and Tran, John and Dally, William},
+  booktitle={Advances in neural information processing systems},
+  pages={1135--1143},
+  year={2015}
+}
+
+@article{zhang2018systematic,
+  title={A systematic DNN weight pruning framework using alternating direction method of multipliers},
+  author={Zhang, Tianyun and Ye, Shaokai and Zhang, Kaiqi and Tang, Jian and Wen, Wujie and Fardad, Makan and Wang, Yanzhi},
+  journal={arXiv preprint arXiv:1804.03294},
+  year={2018}
 }
 ```
