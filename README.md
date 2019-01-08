@@ -1,4 +1,11 @@
-# Pytorch implementation of Google Quantization of ResNet-50
+# Pytorch implementation of Google Quantization
+
+## Experimental result on Res-50:
+
+| Weight Bit | Act Bit | top-1 | 
+|---|---|---|
+| 8 | 8 | 75.46% |
+
 
 ## The quantization scheme follows this paper:
 ```
