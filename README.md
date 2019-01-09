@@ -1,7 +1,10 @@
 # Pytorch implementation of Google Quantization
 
 ### Experimental results:
-To be added.
+
+| MOdel | Weight Bit | Act Bit | top-1 | 
+|---|---|---|---|
+| Res-50 | 8 | 8 | 75.46% |
 
 
 ### The pruning schemes follow these papers:
